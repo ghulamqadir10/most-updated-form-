@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <h1>User Registeration form</h1>
+    <form>
+      <p>First Name:
+        <input type="text" name="First name" required="required">
+      </p>
+      <p>Last name: 
+        <input type ="text" name="last name" required="required">
+      </p>
+      <p>Password: 
+        <input type="password" name="name" maxlength="30" required="required">
+      </p> 
+      <p>Bio: 
+        <textarea type required="text" maxlength="400" ></textarea>
+      </p>
+      <fieldset>
+        <legend>Gender</legend>
+        <input type="radio" name="gender" value="male" checked="checked">male<br>
+        <input type="radio" name="gender" value="female" >female<br>
+        <input type="radio" name="gender" value="other">other
+      </fieldset>
+      <fieldset>
+        <legend>Interests </legend>
+        <input type="radio" name="Interests" value="Music" checked="checked">Music<br>
+        <input type="radio" name="Interests" value="Sports">Sports<br>
+        <input type="radio" name="Interests" value="Reading">Reading
+      </fieldset>
+        <p>Country:
+          <select name="Country">
+            <option value="united state">United State</option>
+          </select>
+        </p><br><br>
+        <p>Prefered Colors:
+          <select name="Colors" required="required">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+          </select>
+        </p>
+        <p>Profile Picture:
+          <input name="profile picture" type="file" required="required">
+        </p>
+        <p>
+          Birthdate:
+          <input name="date of birth" type ="date" value="Birthdate" required="required">
+        </p>
+        <p>Email:
+          <input name="email" type="email" required="required">
+        </p>
+        <p>Website:
+          <input name="website" type="url" required="required">
+        </p>
+        <P>Search:
+          <input name="search" type="search" required="required">
+          </P>
+          <p>
+          <input type="submit" name="submit"  value="submit">
+        </P>
+      </form>
+  </body>
+</html>
+      
